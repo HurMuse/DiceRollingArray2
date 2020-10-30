@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Rolling Dice</title>
+    <link rel="stylesheet" href="./goals3/style3.css" />
+  </head>
+  <body>
+    <main>
+      <fieldset>
+        <label for="search-term">Number of Times to Roll:</label>
+        <!-- <input type="number" name="search-term" id="textbox">-->
+        <input type="number" id="quantity" name="quantity" min="1" />
+        <button id="roll-button">Push to Roll</button>
+      </fieldset>
+
+      <div class="results-container">
+        <div id="dice-results">
+          <p>Wait for it!</p>
+        </div>
+      </div>
+
+      <div class="show-all-container">
+        <p>Dice Roll Results ----></p>
+        <ol id="list-all"></ol>
+      </div>
+      <button id="showAllDiceRolls-button">Push to View Each Roll</button><br />
+      <br />
+
+      <div id="show-all"></div>
+
+      <button id="reset-button">RESET</button><br />
+      <br />
+    </main>
+    <script src="./goals3/diceRoll2.js"></script>
+  </body>
+</html>
+<!--Hmmmm!-->
